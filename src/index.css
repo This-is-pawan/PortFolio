@@ -1,0 +1,104 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(213, 172, 218, 0.87);
+  background-color: #28202c;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+--primary-color-: rgb(82, 234, 82);
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+height: 200vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.logo h2{
+text-shadow: 0px 5px 20px var(--primary-color-);
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+letter-spacing: 2px;
+}
+.nav_bar{
+  width: 100%;
+  margin: 1px auto;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  box-shadow: 1px 1px 20px rgb(94, 93, 170) ;
+  background: rgb(6, 2, 23);
+  opacity: 0.90;
+}
+
+.dark_mode{
+  /* border: 2px solid palegoldenrod; */
+  text-align: center;
+  position: relative;
+  font-size:1.2rem ;
+  color: yellow;
+}
+.mode_moon{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.mode_sun{
+  opacity: 0;
+}
+
+
+@media screen and (max-width:500px) {
+  .Bar{
+    width: 30px;
+    height: 30px;
+    border: 3px solid var(--primary-color-);
+    padding: 0 5px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 1px 1px 30px var(--primary-color-);
+  }
+}
