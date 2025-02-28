@@ -59,7 +59,6 @@ letter-spacing: 2px;
 }
 .nav_bar{
   width: 100%;
-  margin: 1px auto;
   position: fixed;
   display: flex;
   align-items: center;
@@ -74,22 +73,25 @@ letter-spacing: 2px;
   /* border: 2px solid palegoldenrod; */
   text-align: center;
   position: relative;
-  font-size:1.2rem ;
+  /* font-size:1.2rem ; */
   color: yellow;
+  cursor: pointer;
 }
 .mode_moon{
+  /* width: 200px; */
+  border: 2px solid rgb(94, 93, 170);
   position: absolute;
   top: 0;
   right: 0;
-  left: 0;
-  bottom: 0;
+  border-radius: 50%;
+  padding: 3px;
 }
 .mode_sun{
   opacity: 0;
 }
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
   .Bar{
     width: 30px;
     height: 30px;
@@ -101,4 +103,18 @@ letter-spacing: 2px;
     text-align: center;
     box-shadow: 1px 1px 30px var(--primary-color-);
   }
+}
+@media screen and (min-width:601px) {
+  .Bar{
+    display: none;
+  }
+  .mode_moon{
+   /* display: none;
+    */
+    font-size: 1rem;
+   
+    
+  }
+
+  
 }
