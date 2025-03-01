@@ -66,14 +66,15 @@ button:focus-visible {
   letter-spacing: 2px;
   padding:0 20px;
 }
-.nav_bar {
+
+.nav_align {
   width: 100%;
   padding: 1.2rem;
   position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
-  justify-content: space-around;
+  justify-content: space-between;
   box-shadow: 1px 1px 20px rgb(94, 93, 170);
   background: rgb(6, 2, 23);
   opacity: 0.9;
@@ -115,19 +116,22 @@ font-size: 1.3rem;
 letter-spacing: 2px;
 cursor: pointer;
 }
+.profile_img{
+  width: 30px;
+  height: 30px;
+  /* margin:0 3rem; */
+  margin-left: 8rem;
+  border-radius: 50%;
+  border: 2px solid red;
+  padding: 5px;
+}
 /* home page */
 .img_align{
 display: flex;
 justify-content: center;
 
 }
-.profile_img{
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 2px solid red;
-  padding: 5px;
-}
+
 @media screen and (max-width: 600px) {
   .Bar {
     width: 32px;

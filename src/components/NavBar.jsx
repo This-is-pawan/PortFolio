@@ -11,19 +11,21 @@ const NavBar = () => {
   return (
     <>
       <div className="nav_bar">
+        <div className="nav_align">
         <div className="logo">
           {/* <h2>INTRO...</h2> */}
         </div>
-        <div className="dark_mode">
+        <div className="dark_mode gap">
           <DarkMode />
         </div>
-        <div className="side_bar">
+        <div className="side_bar gap">
           <SideBar />
         </div>
           <img src={Profile} alt="profile_img" className="profile_img" />
        {/*  routes*/}
        
         <RoutesLinks/>
+        </div>
       </div>
       <br />
       <br />
