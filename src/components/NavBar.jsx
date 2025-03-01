@@ -7,7 +7,7 @@ import RoutesLinks from "./routes/routesLinks/RoutesLinks";
 import { useState } from "react";
 
 const NavBar = () => {
-  const [isClicking, setIsClicking] = useState(true);
+  const [isClicking, setIsClicking] = useState(false);
 
   const clickHandal = () => {
     setIsClicking((prev) => !prev);
