@@ -15,11 +15,12 @@ const NavBar = () => {
         <div className="logo">
           {/* <h2>INTRO...</h2> */}
         </div>
-        <div className="dark_mode gap">
-          <DarkMode />
-        </div>
-        <div className="side_bar gap">
+        
+        <div className="side_bar ">
           <SideBar />
+        </div>
+        <div className="dark_mode ">
+          <DarkMode />
         </div>
           <img src={Profile} alt="profile_img" className="profile_img" />
        {/*  routes*/}

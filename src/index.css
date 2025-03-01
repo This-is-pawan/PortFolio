@@ -143,6 +143,7 @@ justify-content: center;
     text-align: center;
     box-shadow: 1px 1px 30px var(--primary-color-);
     transition: all 1s linear;
+    margin-right:  5rem;
   }
   .Bar:hover{
     color: var(--primary-color-) ;
