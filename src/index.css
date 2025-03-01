@@ -64,7 +64,7 @@ button:focus-visible {
   display: flex;
   align-items: center;
   justify-content: center;
-  justify-content: space-between;
+  justify-content: space-around;
   box-shadow: 1px 1px 20px rgb(94, 93, 170);
   background: rgb(6, 2, 23);
   opacity: 0.9;
