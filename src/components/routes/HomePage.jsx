@@ -3,7 +3,7 @@ import img from './routerImg/Home.svg'
 const HomePage = () => {
   return (
     <div>
-      Home
+      {/* Home */}
 <div className="img">
   <div className="img_align">
     <img src={img} alt="homepageImg" className='img_width'/>
