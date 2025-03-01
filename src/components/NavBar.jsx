@@ -12,7 +12,7 @@ const NavBar = () => {
     <>
       <div className="nav_bar">
         <div className="logo">
-          <h2>INTRO...</h2>
+          {/* <h2>INTRO...</h2> */}
         </div>
         <div className="dark_mode">
           <DarkMode />
