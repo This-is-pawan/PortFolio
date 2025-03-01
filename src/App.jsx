@@ -5,10 +5,11 @@ import NavBar from './components/NavBar'
 import About from './components/routes/About'
 import HomePage from './components/routes/HomePage'
 import Project from './components/routes/Project'
+import SideBar from './components/SideBar'
+
 
 function App() {
  
-
   const router=createBrowserRouter([
     {
 path:'/',
@@ -35,9 +36,11 @@ children:[
 ])
   return (
     <>
+    
       {/* <h2>This is my app</h2> */}
 
 <RouterProvider router={router}/>
+
       </>
   )
 }
