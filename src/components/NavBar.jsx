@@ -1,7 +1,9 @@
 import DarkMode from "./DarkMode";
 import SideBar from "./SideBar";
-import { About, HomePage, Project } from "../components/routes/RouteJoining";
-import { Link, Outlet } from "react-router-dom";
+import Profile from './routes/routerImg/Home.svg'
+// import { About, HomePage, Project } from "../components/routes/RouteJoining";
+import {  Outlet } from "react-router-dom";
+import RoutesLinks from "./routes/routesLinks/RoutesLinks";
 
 const NavBar = () => {
 
@@ -18,30 +20,17 @@ const NavBar = () => {
         <div className="side_bar">
           <SideBar />
         </div>
+          <img src={Profile} alt="profile_img" className="profile_img" />
        {/*  routes*/}
-       <div className="routes">
-        <div className="route">
-          <article>
-      
-            <Link to='/'>Home</Link>
-          </article>
-          <article>
-            <Link to='about'>About</Link>
-    
-          </article>
-          <article>
-            <Link to='/project'>project</Link>
-          
-          </article>
-        </div>
-        </div>
+       
+        <RoutesLinks/>
       </div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
+      <br />
           <Outlet/>
-      
+
     </>
   );
 };

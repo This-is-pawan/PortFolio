@@ -103,6 +103,15 @@ display: flex;
 justify-content: center;
 
 }
+.profile_img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid red;
+  padding: 5px;
+
+  
+}
 @media screen and (max-width: 600px) {
   .Bar {
     width: 30px;
@@ -129,6 +138,7 @@ justify-content: center;
       box-shadow: 1px 1px 3rem red;
 
     }
+
 }
 @media screen and (min-width: 601px) {
   .Bar {
