@@ -8,7 +8,7 @@ const Project = () => {
         <div className="img_align">
           <img src={img} alt="homepageImg" className='img_width'/>
         </div>
-      </div>s
+      </div>
     </div>
   )
 }

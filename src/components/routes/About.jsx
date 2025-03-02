@@ -1,4 +1,4 @@
-// import img from "./routerImg/Home.svg"
+import img from "./routerImg/Resume.svg"
 import { useState } from "react";
 import {
   SiBootstrap,
@@ -12,7 +12,7 @@ import {
 } from "react-icons/si";
 import {  IoDocumentTextOutline } from "react-icons/io5";
 const About = () => {
-  const [cont, setCont] = useState(false);
+  const [cont] = useState(false);
   return (
     <>
       
@@ -20,7 +20,8 @@ const About = () => {
         <div className="container_positions_align">
       <div className={`resume ${cont ? "container_color" : "container_blue"}`}>
         <IoDocumentTextOutline className="resume_doc" />
-        <h2>resume</h2>
+        {/* <h2>resume</h2> */}
+        <img src={img} alt="resume" className="img_resume"/>
       </div>
       {/*  */}
 
@@ -31,15 +32,15 @@ const About = () => {
 {/*  */}
       <div className={`Skill ${cont?'container_color':'container_blue'}`} >
             <h3>Skills</h3>
-            <div className="skill_icons">
-              <SiHtml5 className="skills_icon" />
-              <SiJavascript className="skills_icon" />
-              <SiCss3 className="skills_icon" />
-              <SiTailwindcss className="skills_icon" />
-              <SiBootstrap className="skills_icon" />
-              <SiReact className="skills_icon" />
-              <SiTypescript className="skills_icon" />
-              <SiNextdotjs className="skills_icon" />
+            <div className="skill_icons ">
+              <SiHtml5 className="skills_icon " />
+              <SiJavascript className="skills_icon " />
+              <SiCss3 className="skills_icon " />
+              <SiTailwindcss className="skills_icon " />
+              <SiBootstrap className="skills_icon " />
+              <SiReact className="skills_icon " />
+              <SiTypescript className="skills_icon " />
+              <SiNextdotjs className="skills_icon " />
             </div>
           </div>
 

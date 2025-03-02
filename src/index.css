@@ -159,6 +159,9 @@ button:focus-visible {
 .container_color h3 {
   column-rule: #646cff;
 }
+.container:hover{
+  box-shadow:1px 1px 2rem yellow;
+}
 .container_blue {
   background-color: #28202c;
 }
@@ -183,6 +186,10 @@ button:focus-visible {
   box-shadow: 1px 1px 2rem black;
   border-radius: 1rem;
   padding: 2rem;
+  transition: all 2s ease;
+}
+.Skill:hover{
+  box-shadow:1px 1px 2rem yellow;
 }
 .skill_icons {
   display: grid;
@@ -192,6 +199,7 @@ button:focus-visible {
   transition: all 2s ease;
   font-size: 2rem;
   color: yellow;
+  cursor: pointer;
 }
 
 .resume {
@@ -207,6 +215,21 @@ button:focus-visible {
 .resume_doc {
   color: yellow;
   font-size: 2rem;
+  cursor: pointer;
+}
+.img_resume{
+  width: 100px;
+}
+.resume{
+
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-around;
+transition: all 2s ease;
+}
+.resume:hover{
+  box-shadow:1px 1px 2rem yellow;
 }
 .description{
   width: 90%;
@@ -216,7 +239,12 @@ button:focus-visible {
   border-radius: 1rem;
   padding: 2rem;
   font-family: monospace;
+  transition: all 2s ease;
 }
+.description:hover{
+  box-shadow:1px 1px 2rem yellow;
+}
+
 .description h2{
   color: yellow;
   font-size: 1.5rem;
@@ -227,6 +255,7 @@ button:focus-visible {
 margin-top: 1rem;
 text-transform: capitalize;
 }
+
 @media screen and (max-width: 600px) {
   .Bar {
     width: 32px;
@@ -317,6 +346,7 @@ text-transform: capitalize;
     padding: 2rem;
     line-height: 4rem;
   }
+  
   .Skill {
     width: 80%;
     height: auto;
@@ -324,7 +354,9 @@ text-transform: capitalize;
     box-shadow: 1px 1px 2rem black;
     border-radius: 1rem;
     padding: 2rem;
+    transition: all 2s ease;
   }
+  
   .container_positions_align {
     width: 100%;
     display: grid;
