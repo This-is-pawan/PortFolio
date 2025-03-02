@@ -345,4 +345,10 @@ text-transform: capitalize;
     background: yellow;
     padding: 0.5rem;
   }
+  .container{
+    width: 50%;
+  }
+  .description{
+    width: 50%;
+  }
 }
