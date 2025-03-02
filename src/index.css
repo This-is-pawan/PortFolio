@@ -159,8 +159,12 @@ button:focus-visible {
   font-family: cursive;
   
 }
-.container_color{
+.container_color h3{
+column-rule: #646cff;
+}
+.container_blue{
   background-color: #28202c;
+
 }
 .stack_img {
   width: 80px;

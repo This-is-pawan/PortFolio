@@ -1,4 +1,5 @@
 // import React, { useEffect, useRef,useState } from "react";
+import { useState } from "react";
 import img from "./routes/routerImg/Home.svg";
 import {
   SiBootstrap,
@@ -12,14 +13,14 @@ import {
 } from "react-icons/si";
 
 const Container = () => {
-
+const [cont,setCont]=useState(false)
  
 
   return (
     <>
       <div className="container_positions" >
         <div className="container_positions_align" >
-          <div className="container" >
+          <div className={`container ${cont?'container_color':'container_blue'} `}  >
             <div className="container_child" >
               <div className="stack_img_align" >
                 <img src={img} alt="profile_picture" className="stack_img" />
@@ -28,7 +29,7 @@ const Container = () => {
               <a href="https://github.com/This-is-pawan" target="_blank" style={{color:'yellow',borderBottom:'3px'}}>See More</a>
             </div>
           </div>
-          <div className="Skill" >
+          <div className={`Skill ${cont?'container_color':'container_blue'}`} >
             <h3>Skills</h3>
             <div className="skill_icons">
               <SiHtml5 className="skills_icon" />
