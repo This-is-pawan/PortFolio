@@ -1,4 +1,4 @@
-// import img from "./routerImg/Home.svg";
+// import img from "./routerImg/Home.svg"
 import { useState } from "react";
 import {
   SiBootstrap,

@@ -21,7 +21,9 @@
   --primary-color-: rgb(82, 234, 82);
 }
 .Light {
+  width: 100%;
   background: yellow;
+  height: 100vh;
 }
 
 a {
@@ -30,10 +32,6 @@ a {
   text-decoration: inherit;
 }
 
-body {
-  margin: 0;
-  height: 100vh;
-}
 
 h1 {
   font-size: 3.2em;
@@ -152,19 +150,17 @@ button:focus-visible {
   place-items: center;
   box-shadow: 1px 1px 2rem black;
   border-radius: 1rem;
-  height: 400px;
+  height: auto;
   padding: 10px;
   transition: all 3s ease;
   text-transform: capitalize;
   font-family: cursive;
-  
 }
-.container_color h3{
-column-rule: #646cff;
+.container_color h3 {
+  column-rule: #646cff;
 }
-.container_blue{
+.container_blue {
   background-color: #28202c;
-
 }
 .stack_img {
   width: 80px;
@@ -183,7 +179,7 @@ column-rule: #646cff;
 .Skill {
   width: 90%;
   height: auto;
-  margin: 1rem auto ;
+  margin: 1rem auto;
   box-shadow: 1px 1px 2rem black;
   border-radius: 1rem;
   padding: 2rem;
@@ -198,7 +194,7 @@ column-rule: #646cff;
   color: yellow;
 }
 
-.resume{
+.resume {
   width: 90%;
   height: auto;
   margin: 1rem auto;
@@ -208,11 +204,29 @@ column-rule: #646cff;
   line-height: 4rem;
 }
 
-.resume_doc{
+.resume_doc {
   color: yellow;
   font-size: 2rem;
 }
-
+.description{
+  width: 90%;
+  /* height: 200px; */
+  margin: 1rem auto;
+  box-shadow: 1px 1px 2rem black;
+  border-radius: 1rem;
+  padding: 2rem;
+  font-family: monospace;
+}
+.description h2{
+  color: yellow;
+  font-size: 1.5rem;
+  border-bottom: 1px dotted;
+  padding: 0.5rem;
+}
+.description h3{
+margin-top: 1rem;
+text-transform: capitalize;
+}
 @media screen and (max-width: 600px) {
   .Bar {
     width: 32px;
@@ -240,7 +254,7 @@ column-rule: #646cff;
     padding: 10px;
     border-radius: 2rem;
     transition: all 1s ease;
-   overflow-x: hidden;
+    
   }
   .img_width:hover {
     box-shadow: 1px 1px 3rem red;
@@ -268,7 +282,6 @@ column-rule: #646cff;
   }
 }
 
-
 @media screen and (min-width: 601px) {
   .Bar {
     display: none;
@@ -295,7 +308,7 @@ column-rule: #646cff;
   .linking {
     display: none;
   }
-  .resume{
+  .resume {
     width: 40%;
     height: auto;
     margin: 1rem auto;
@@ -307,24 +320,29 @@ column-rule: #646cff;
   .Skill {
     width: 80%;
     height: auto;
-    margin: 1rem auto ;
+    margin: 1rem auto;
     box-shadow: 1px 1px 2rem black;
     border-radius: 1rem;
     padding: 2rem;
   }
-  .container_positions_align{
+  .container_positions_align {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1fr);
-
   }
-  .developer_text{
+  .developer_text {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .developer_text a{
-  margin: 0 4rem;
-   
-  } 
+  .developer_text a {
+    margin: 0 4rem;
+  }
+  .stack_img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    background: yellow;
+    padding: 0.5rem;
+  }
 }

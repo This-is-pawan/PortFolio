@@ -22,6 +22,11 @@ const HomePage = () => {
                 </article>
             </div>
           </div>
+
+          <div className={`description ${cont ? "container_color" : "container_blue" } `}>
+            <h2>Description</h2>
+<h3>Only Knowledge Does Not Make You Good Whereas Practice And Experiment Makes You Good.</h3>
+          </div>
     </>
   )
 }
