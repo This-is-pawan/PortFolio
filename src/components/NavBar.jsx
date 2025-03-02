@@ -7,7 +7,7 @@ import RoutesLinks from "./routes/routesLinks/RoutesLinks";
 import { useState } from "react";
 
 const NavBar = () => {
-  const [isClicking, setIsClicking] = useState(true);
+  const [isClicking, setIsClicking] = useState(false);
 
   const clickHandal = () => {
     setIsClicking((prev) => !prev);
@@ -15,7 +15,8 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="nav_bar">
+    <nav>
+      <div className={`nav_bar`}>
         <div className="nav_align">
           <div className="logo">{/* <h2>INTRO...</h2> */}</div>
           <article className="Bar">
@@ -31,6 +32,7 @@ const NavBar = () => {
           <RoutesLinks />
         </div>
       </div>
+      </nav>
       <br />
       <br />
       <br />

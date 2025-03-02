@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Qwitcher+Grypen:wght@400;700&family=Updock&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -76,7 +78,9 @@ button:focus-visible {
   background: rgb(6, 2, 23);
   opacity: 0.9;
 }
-
+.nav_align_color {
+  background: white;
+}
 .dark_mode {
   /* border: 2px solid palegoldenrod; */
   width: 20px;
@@ -109,13 +113,7 @@ button:focus-visible {
   border-radius: 4px;
   padding-bottom: 0.3rem;
 }
-/* .blue{
-  color:rgb(54, 4, 90);
-  border-bottom: 5px solid rgb(33, 5, 104);
-  transition: all 100ms ease;
-  border-radius: 4px;
-  padding-bottom: 0.3rem;
-} */
+
 .mode_sun {
   padding: 2px;
   font-size: 1.3rem;
@@ -147,6 +145,56 @@ button:focus-visible {
   justify-content: center;
   align-items: center;
 }
+.container {
+  width: 86%;
+  display: grid;
+  margin: 1rem auto;
+  place-items: center;
+  box-shadow: 1px 1px 2rem black;
+  border-radius: 1rem;
+  height: auto;
+  padding: 10px;
+  transition: all 3s ease;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+.stack_img {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+  background: yellow;
+  padding: 0.5rem;
+}
+.stack_img_align {
+  width: 100%;
+  height: auto;
+  display: grid;
+  place-items: center;
+  padding: 2rem 0;
+}
+.Skill {
+  width: 80%;
+  height: auto;
+  margin: 1rem auto;
+  box-shadow: 1px 1px 2rem black;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.skill_icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 1rem 0;
+  transition: all 2s ease;
+  font-size: 2rem;
+}
+
+/* .skill_icons:hover {
+cursor: pointer;
+color: red;
+
+} */
 
 @media screen and (max-width: 600px) {
   .Bar {
@@ -223,7 +271,13 @@ button:focus-visible {
     position: absolute;
     left: 0;
   }
-  .linking{
+  .linking {
     display: none;
+  }
+  .container_positions_align{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
   }
 }

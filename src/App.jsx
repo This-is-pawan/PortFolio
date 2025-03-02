@@ -6,6 +6,7 @@ import About from './components/routes/About'
 import HomePage from './components/routes/HomePage'
 import Project from './components/routes/Project'
 import SideBar from './components/SideBar'
+import Container from './components/Container'
 
 
 function App() {
@@ -41,6 +42,7 @@ children:[
 
 <RouterProvider router={router}/>
 
+<Container/>
       </>
   )
 }
