@@ -5,6 +5,7 @@ import Profile from "./routes/routerImg/Home.svg";
 import { Outlet } from "react-router-dom";
 import RoutesLinks from "./routes/routesLinks/RoutesLinks";
 import { useState } from "react";
+import Container from "./Container";
 
 const NavBar = () => {
   const [isClicking, setIsClicking] = useState(false);
@@ -41,6 +42,7 @@ const NavBar = () => {
         <SideBar Clicking={isClicking} />
       </div>
       <Outlet />
+        <Container mode={isClicking}/>
     </>
   );
 };

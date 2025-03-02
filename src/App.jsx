@@ -5,7 +5,7 @@ import NavBar from './components/NavBar'
 import About from './components/routes/About'
 import HomePage from './components/routes/HomePage'
 import Project from './components/routes/Project'
-import SideBar from './components/SideBar'
+// import SideBar from './components/SideBar'/
 import Container from './components/Container'
 
 
@@ -42,7 +42,7 @@ children:[
 
 <RouterProvider router={router}/>
 
-<Container/>
+{/* <Container/> */}
       </>
   )
 }

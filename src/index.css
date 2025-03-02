@@ -157,8 +157,11 @@ button:focus-visible {
   transition: all 3s ease;
   text-transform: capitalize;
   font-family: cursive;
+  
 }
-
+.container_color{
+  background-color: #28202c;
+}
 .stack_img {
   width: 80px;
   height: auto;
@@ -174,6 +177,7 @@ button:focus-visible {
   padding: 2rem 0;
 }
 .Skill {
+
   width: 80%;
   height: auto;
   margin: 1rem auto;
@@ -188,6 +192,7 @@ button:focus-visible {
   padding: 1rem 0;
   transition: all 2s ease;
   font-size: 2rem;
+  color: yellow;
 }
 
 /* .skill_icons:hover {
