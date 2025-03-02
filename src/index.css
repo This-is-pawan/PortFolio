@@ -32,7 +32,7 @@ a {
 
 body {
   margin: 0;
-  height: 200vh;
+  height: 100vh;
 }
 
 h1 {
@@ -131,13 +131,13 @@ button:focus-visible {
   cursor: pointer;
 }
 .profile_img {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   /* margin:0 3rem; */
   margin-left: 8rem;
   border-radius: 50%;
   border: 2px solid red;
-  padding: 5px;
+  padding: 3px;
 }
 /* home page */
 .img_align {
@@ -146,13 +146,13 @@ button:focus-visible {
   align-items: center;
 }
 .container {
-  width: 86%;
+  width: 90%;
   display: grid;
-  margin: 1rem auto;
+  margin: 4rem auto;
   place-items: center;
   box-shadow: 1px 1px 2rem black;
   border-radius: 1rem;
-  height: auto;
+  height: 400px;
   padding: 10px;
   transition: all 3s ease;
   text-transform: capitalize;
@@ -181,10 +181,9 @@ column-rule: #646cff;
   padding: 2rem 0;
 }
 .Skill {
-
-  width: 80%;
+  width: 90%;
   height: auto;
-  margin: 1rem auto;
+  margin: 1rem auto ;
   box-shadow: 1px 1px 2rem black;
   border-radius: 1rem;
   padding: 2rem;
@@ -199,11 +198,20 @@ column-rule: #646cff;
   color: yellow;
 }
 
-/* .skill_icons:hover {
-cursor: pointer;
-color: red;
+.resume{
+  width: 90%;
+  height: auto;
+  margin: 1rem auto;
+  box-shadow: 1px 1px 2rem black;
+  border-radius: 1rem;
+  padding: 2rem;
+  line-height: 4rem;
+}
 
-} */
+.resume_doc{
+  color: yellow;
+  font-size: 2rem;
+}
 
 @media screen and (max-width: 600px) {
   .Bar {
@@ -228,9 +236,11 @@ color: red;
 
   .img_width {
     width: 80%;
+    height: auto;
     padding: 10px;
     border-radius: 2rem;
     transition: all 1s ease;
+   overflow-x: hidden;
   }
   .img_width:hover {
     box-shadow: 1px 1px 3rem red;
@@ -257,6 +267,8 @@ color: red;
     transform: translateX(-100%);
   }
 }
+
+
 @media screen and (min-width: 601px) {
   .Bar {
     display: none;
@@ -283,10 +295,36 @@ color: red;
   .linking {
     display: none;
   }
+  .resume{
+    width: 40%;
+    height: auto;
+    margin: 1rem auto;
+    box-shadow: 1px 1px 2rem black;
+    border-radius: 1rem;
+    padding: 2rem;
+    line-height: 4rem;
+  }
+  .Skill {
+    width: 80%;
+    height: auto;
+    margin: 1rem auto ;
+    box-shadow: 1px 1px 2rem black;
+    border-radius: 1rem;
+    padding: 2rem;
+  }
   .container_positions_align{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1fr);
 
   }
+  .developer_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .developer_text a{
+  margin: 0 4rem;
+   
+  } 
 }
