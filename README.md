@@ -12,3 +12,23 @@ Currently, two official plugins are available:
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 #######
 ##################### working is pending #########
+1. Select Multiple Occurrences of a Word
+Windows/Linux: Ctrl + D
+Mac: Cmd + D
+(Press multiple times to keep selecting the next occurrence.)
+
+2. Select All Occurrences of a Word
+Windows/Linux: Ctrl + Shift + L
+Mac: Cmd + Shift + L
+3. Add Multiple Cursors Manually
+Windows/Linux: Alt + Click
+Mac: Option + Click
+4. Add Cursors Above/Below
+Windows/Linux: Ctrl + Alt + ↑/↓
+Mac: Cmd + Option + ↑/↓
+
+
+
+
+
+
