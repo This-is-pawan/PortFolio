@@ -297,7 +297,7 @@ text-transform: capitalize;
     background: red;
     opacity: 0.5;
     transition: transform 0.2s ease-in-out;
-    transform: translateX(-100%);
+    transform: translateY(-100%);
   }
   .linking h2 {
     padding: 0.7rem 2rem;
