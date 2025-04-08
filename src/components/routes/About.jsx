@@ -9,7 +9,9 @@ import {
   SiReact,
   SiTailwindcss,
   SiTypescript,
-   SiNodedotjs, SiExpress, SiPostman ,
+   SiNodedotjs, 
+  SiExpress,
+  SiPostman ,
   SiMongodb, SiMongoose
 } from "react-icons/si";
 import {  IoDocumentTextOutline } from "react-icons/io5";
@@ -43,8 +45,10 @@ const About = () => {
               <SiReact className="skills_icon " />
               <SiTypescript className="skills_icon " />
               <SiNextdotjs className="skills_icon " />
-              <SiNodedotjs className="skills_icon" /><SiMongoose className="skills_icon" />
-              <SiExpress className="skills_icon" /><SiPostman className="skills_icon" />
+              <SiNodedotjs className="skills_icon" />
+              <SiMongoose className="skills_icon" />
+              <SiExpress className="skills_icon" />
+              <SiPostman className="skills_icon" />
             </div>
           </div>
 
