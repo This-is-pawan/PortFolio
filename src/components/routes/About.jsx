@@ -12,7 +12,8 @@ import {
    SiNodedotjs, 
   SiExpress,
   SiPostman ,
-  SiMongodb, SiMongoose
+  SiMongodb,
+  SiMongoose
 } from "react-icons/si";
 import {  IoDocumentTextOutline } from "react-icons/io5";
 const About = () => {
