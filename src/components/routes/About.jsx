@@ -6,7 +6,7 @@ import {
   SiHtml5,
   SiJavascript,
   SiNextdotjs,
-  SiReact,
+  SiReact, 
   SiTailwindcss,
   SiTypescript,
    SiNodedotjs, 
