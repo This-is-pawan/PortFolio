@@ -9,7 +9,7 @@ import {
   SiReact,
   SiTailwindcss,
   SiTypescript,
-   // SiNodedotjs, 
+   SiNodedotjs, 
   SiExpress,
   SiPostman ,
   SiMongodb,
@@ -37,19 +37,19 @@ const About = () => {
 {/*  */}
       <div className={`Skill ${cont?'container_color':'container_blue'}`} >
             <h3>Skills</h3>
-            <div className="skill_icons ">
-              <SiHtml5 className="skills_icon " />
-              <SiJavascript className="skills_icon " />
-              <SiCss3 className="skills_icon " />
-              <SiTailwindcss className="skills_icon " />
-              <SiBootstrap className="skills_icon " />
-              <SiReact className="skills_icon " />
-              <SiTypescript className="skills_icon " />
-              <SiNextdotjs className="skills_icon " />
-{/*               <SiNodedotjs className="skills_icon" /> */}
-              <SiMongoose className="skills_icon" />
-              <SiExpress className="skills_icon" />
-              <SiPostman className="skills_icon" />
+            <div className="skill_icons "title="">
+              <SiHtml5 className="skills_icon "title="html5" />
+              <SiJavascript className="skills_icon " title="javascript"/>
+              <SiCss3 className="skills_icon "title="css3" />
+              <SiTailwindcss className="skills_icon "title="tailwindcss" />
+              <SiBootstrap className="skills_icon "title="bootstrap" />
+              <SiReact className="skills_icon "title="reactjs" />
+              <SiTypescript className="skills_icon "title="typscript" />
+              <SiNextdotjs className="skills_icon " title="nextjs"/>
+              <SiNodedotjs className="skills_icon"title="nodejs" />
+              <SiMongoose className="skills_icon"title="mongoose" />
+              <SiExpress className="skills_icon" title="express"/>
+              <SiPostman className="skills_icon" title='postman' />
             </div>
           </div>
 
