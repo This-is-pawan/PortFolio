@@ -9,7 +9,7 @@ import {
   SiReact,
   SiTailwindcss,
   SiTypescript,
-   SiNodedotjs, 
+   // SiNodedotjs, 
   SiExpress,
   SiPostman ,
   SiMongodb,
