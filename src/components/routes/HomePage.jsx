@@ -1,4 +1,4 @@
-import img from './routerImg/Home.svg'
+import img from 'Screenshot_2024-02-06-21-13-00-128_com.whatsapp-edit.jpg'
 import { useState } from "react";
 const HomePage = () => {
   const [cont, setCont] = useState(false);
