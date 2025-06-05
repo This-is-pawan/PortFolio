@@ -25,7 +25,7 @@ const HomePage = () => {
 
           <div className={`description ${cont ? "container_color" : "container_blue" } `}>
             <h2>Description</h2>
-<h3>Only Knowledge Does Not Make You Good Whereas Practice And Experiment Makes You Good.</h3>
+<h3>Only Knowledge Does Not Make You Good Whereas Practice And Experiment Makes You Good.I'm very passionate to my work.</h3>
           </div>
     </>
   )
